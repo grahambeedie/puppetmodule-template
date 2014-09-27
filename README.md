@@ -19,36 +19,31 @@ A simple Puppet module template skeleton.
 
 ## Module Description
 
-RSpec and Bundler out of the box.
-
+Includes RSpec and Bundler out of the box.
 
 ## Setup
 
-1 - git clone https://github.com/grahambeedie/puppetmodule-skel.git MODULE_NAME_HERE
+- git clone https://github.com/grahambeedie/puppetmodule-skel.git MODULE_NAME_HERE
 
-2 - Rename the class declaration in init.pp to something meaningful.
+- Rename the class declaration in init.pp to something meaningful.
 
-3 - Update the .ftxtures.yml to refelect the change.
+- Update the .ftxtures.yml to refelect the change.
 
-4 - Write your manifests, defines and tests.
+- Write your manifests, defines and tests.
 
 ### Setup Requirements
 
 * Ruby 2.1
-* Puppet 3.7.1-1 
+* Puppet 3.7.1-1
+* Bundler 1.6.2 
 
 ### Beginning with template
 
-The very basic steps needed for a user to get the module up and running.
-
-If your most recent release breaks compatibility or requires particular steps
-for upgrading, you may wish to include an additional section here: Upgrading
-(For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
+See [Setup - The basics of getting started with template](#setup)
 
 ## Usage
 
-Put the classes, types, and resources for customizing, configuring, and doing
-the fancy stuff with your module here.
+See [Setup - The basics of getting started with template](#setup)
 
 ## Reference
 
@@ -59,15 +54,9 @@ with things. (We are working on automating this section!)
 
 ## Limitations
 
-This is where you list OS compatibility, version compatibility, etc.
+Untested on Ruby versions <= 2.1 and Puppet versions <=3.7.*. YMMV.
 
-## Development
 
-Since your module is awesome, other users will want to play with it. Let them
-know what the ground rules for contributing are.
+## Release Notes
 
-## Release Notes/Contributors/Etc **Optional**
-
-If you aren't using changelog, put your release notes here (though you should
-consider using changelog). You may also add any additional sections you feel are
-necessary or important to include here. Please use the `## ` header.
+N/A
