@@ -1,0 +1,4 @@
+fixtures:
+  symlinks:
+    template: "#{source_dir}"
+

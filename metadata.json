@@ -1,0 +1,14 @@
+{
+  "name": "puppetmodule-template",
+  "version": "0.1.0",
+  "author": "graham.beedie@gmail.com",
+  "summary": "Skeleton project for Puppet modules",
+  "license": "MIT",
+  "source": "GitHub",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
